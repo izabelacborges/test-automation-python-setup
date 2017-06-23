@@ -16,6 +16,13 @@ Para instalar e configurar o seu ambiente de testes automatizados em Python, voc
 * Linux Ubuntu: [`install-linux.md`](https://github.com/belacb/test-automation-python-setup/blob/master/setup-install/install-linux.md)
 * Windows: [`install-win.md`](https://github.com/belacb/test-automation-python-setup/blob/master/setup-install/install-win.md)
 
+### Execução dos testes
+Abra o Terminal, preferencialmente dentro do PyCharm. Será necessário ativar o ambiente virtual criado para os testes, e só aí executar o teste desejado. Os passos serão os seguintes:
+```shell
+source ~/Virtualenvs/pytest2env/bin/activate
+nose path/to/test/test.py
+```
+
 ### Licenças
 Os códigos de exemplificação estão sob a __licença MIT__: https://opensource.org/licenses/MIT ou veja o [arquivo `LICENSE`](https://github.com/belacb/test-automation-python-setup/blob/master/LICENSE) 
 

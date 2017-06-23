@@ -1,2 +1,12 @@
 nose
 selenium
+chromedriver
+nose_xunitmp
+nose-exclude
+git+git://github.com/TriggerMail/nose-parallel.git
+git+git://github.com/cboylan/nose-html-output.git
+pytest==2.9.0
+pytest-xdist
+requests
+ddt
+beautifulsoup4

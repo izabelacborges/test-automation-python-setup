@@ -3,6 +3,7 @@
 ### Instalando e configurando o `python`
 1. __Instalação__
     
+    Mesmo o python já vindo pré-instalado no Mac, é recomendável reinstalá-lo via Homebrew para evitar incompatibilidade com algumas bibliotecas.
     ```shell
         brew doctor
         brew update
@@ -20,7 +21,7 @@
         export PATH=/usr/local/bin:$PATH
         test -f ~/.bashrc && source ~/.bashrc
     ```
-    Salve e saia do arquivo vim, em seguida:
+    Salve e saia do arquivo vim. Em seguida, para aproveitar as alterações do bash na sessão atual do terminal, execute:
     ```shell
         source ~/.bash_profile
     ```
@@ -68,7 +69,7 @@ No terminal, navegue até o diretório em que você deseja que fique o projeto e
 ```shell
     git clone https://github.com/belacb/test-automation-python-setup.git
 ```
-E instale as dependencias com `pip install -r requirements.txt`
+E instale as dependencias com `pip install -r requirements.txt` tanto dentro quanto fora do ambiente virtual.
 
 ### Instalando o Chrome Driver:
 ```shell
@@ -89,6 +90,11 @@ sudo chown root:wheel /usr/local
 
 ### selenium-server-standalone
 Para rodar os testes será necessário ter o selenium server. Você pode baixar o arquivo `.jar` [aqui](https://goo.gl/s4o9Vx).
+
+Antes de executar os testes você precisa rodar o arquivo `.jar` com:
+```shell
+java -jar selenium-server-standalone-3.4.0.jar
+```
 
 ### PyCharm IDE
 Neste projeto foi usado o PyCharm. Você pode instalá-lo por [aqui](https://www.jetbrains.com/pycharm/download/).
