@@ -52,8 +52,8 @@
     Agora é só criar o ambiente virtual com:
     ```shell
         cd ~/Virtualenvs
-        virtualenv pytest2env  #for Python 2
-        venv pytest3env        #for Python 3
+        virtualenv pytest2env                       #for Python 2
+        python3 -m venv ~/Virtualenvs/pytest3env    #for Python 3
     ```
     Ative o ambiente virtual com: 
     ```shell
@@ -69,7 +69,7 @@ No terminal, navegue até o diretório em que você deseja que fique o projeto e
 ```shell
     git clone https://github.com/belacb/test-automation-python-setup.git
 ```
-E instale as dependencias com `pip install -r requirements.txt` tanto dentro quanto fora do ambiente virtual.
+E instale as dependencias com `pip install -r requirements.txt` tanto dentro do ambiente virtual.
 
 ### Instalando o Chrome Driver:
 ```shell
