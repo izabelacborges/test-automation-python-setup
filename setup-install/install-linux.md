@@ -1,7 +1,7 @@
 # Configuração e instalação de ambiente - Linux Ubuntu
 
 ### Instalando e configurando o `python`
-1. __Instalação__
+1. __Instalação `python` e `pip`__
     
     O Python já vem pré-instalado nas distribuições Ubuntu do Linux.
     Verifique utilizando os comandos `python2 --version` e `python3 --version`
@@ -13,7 +13,16 @@
         
         #para o python 3
         sudo apt-get update
-        sudo apt-get install python3.6
+        sudo apt-get install python3
+    ```
+    
+    Para fazer o upgrade do pip:
+    ```shell
+        #para python 2
+        pip install -U pip
+        
+        #para python 3
+        pip3 install -U pip
     ```
     
 2. __Alteração do `$PATH`__
