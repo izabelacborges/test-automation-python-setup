@@ -7,6 +7,13 @@ Porém duas alternativas são:
     - Instalação do [Python 3](http://docs.python-guide.org/en/latest/starting/install3/win/#install3-windows)
 2. Ou utilizar a distribuição do [Miniconda](https://conda.io/docs/install/quick.html) ou [Anaconda](https://conda.io/docs/install/full.html)
 
+### Clonando o repositório
+No terminal, navegue até o diretório em que você deseja que fique o projeto e clone o repositório com:
+```shell
+    git clone https://github.com/belacb/test-automation-python-setup.git
+```
+E instale as dependencias com `pip install -r requirements.txt` dentro do ambiente virtual.
+
 ### Chromedriver
 Você pode installar o Chromedriver mais recente por [aqui](https://chromedriver.storage.googleapis.com/2.30/chromedriver_win32.zip).
 

@@ -69,7 +69,7 @@ No terminal, navegue até o diretório em que você deseja que fique o projeto e
 ```shell
     git clone https://github.com/belacb/test-automation-python-setup.git
 ```
-E instale as dependencias com `pip install -r requirements.txt` tanto dentro do ambiente virtual.
+E instale as dependencias com `pip install -r requirements.txt` dentro do ambiente virtual.
 
 ### Instalando o Chrome Driver:
 ```shell
