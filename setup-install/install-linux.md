@@ -77,21 +77,29 @@ No terminal, navegue até o diretório em que você deseja que fique o projeto e
 ```
 E instale as dependencias com `pip install -r requirements.txt` dentro do ambiente virtual.
 
-### Instalando o Chrome Driver:
+### Instalando o Chrome e o ChromeDriver:
+1. __Chrome__
+
 ```shell
-brew install chromedriver
+sudo apt-get install libxss1 libappindicator1 libindicator7
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+sudo dpkg -i google-chrome*.deb
+sudo apt-get install -f
 ```
-Se aparecer uma mensagem `"Warning: chromedriver already installed, it's just not linked"` execute o comando:
+2. __ChromeDriver__
+
 ```shell
-brew link --overwrite chromedriver
-```
-Se você está usando o Sierra pode passar por alguns problemas de permissão, para mudar as permissões de usuário, use:
-```shell
-sudo chown -R (whoami) /usr/local
-```
-refaça a instalação e o link (caso necessário) e volte a permissão de usuário para o padrão com:
-```shell
-sudo chown root:wheel /usr/local
+sudo apt-get install unzip
+
+wget -N http://chromedriver.storage.googleapis.com/2.30/chromedriver_linux64.zip -P ~/Downloads
+    
+unzip ~/Downloads/chromedriver_linux64.zip -d ~/Downloads
+    
+chmod +x ~/Downloads/chromedriver
+sudo mv -f ~/Downloads/chromedriver /usr/local/share/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/local/bin/chromedriver
+sudo ln -s /usr/local/share/chromedriver /usr/bin/chromedriver
 ```
 
 ### selenium-server-standalone
