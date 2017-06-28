@@ -6,9 +6,9 @@ Este repositório compreende os materiais utilizados ao ministrar o minicurso de
 > Como pré-requisito o aluno deverá trazer o próprio notebook, pois os processos de instalação são essenciais ao aprendizado.
 
 ### Slides
-Se você está acompanhando o minicurso nesse momento você deve visualizar o slide clicando [aqui](https://slides.com/izaizabelacborges/qaautomationsummerpuc/live#/).
+Se você está acompanhando o minicurso nesse momento você deve visualizar o slide clicando [aqui](https://slides.com/izabelacb/qaautomationsummerpuc/live#/).
 
-Se você achou esse repositório por acaso, você pode acessar os slides [por aqui](http://slides.com/izaizabelacborges/qaautomationsummerpuc#/).
+Se você achou esse repositório por acaso, você pode acessar os slides [por aqui](http://slides.com/izabelacb/qaautomationsummerpuc#/).
 
 ### Instalação e configuração de ambiente
 Para instalar e configurar o seu ambiente de testes automatizados em Python, você deve seguir o manual de instalação segundo seu sistema operacional:
