@@ -8,7 +8,6 @@
         brew doctor
         brew update
         brew install python   #for python 2
-        brew install python3  #for python 3
     ```
 2. __Alteração do `$PATH`__
 
@@ -29,7 +28,6 @@
     
     ```shell
         pip install virtualenv   #for python 2
-        pip install venv         #for python 3
     ```
     Agora vamos criar diretórios para salvar os ambientes virtuais e arquivos de configuração:
     ```shell
@@ -52,12 +50,11 @@
     Agora é só criar o ambiente virtual com:
     ```shell
         cd ~/Virtualenvs
-        virtualenv pytest2env                       #for Python 2
-        python3 -m venv ~/Virtualenvs/pytest3env    #for Python 3
+        virtualenv selenium2env                       #for Python 2
     ```
     Ative o ambiente virtual com: 
     ```shell
-        cd pytest2env  #or pytest3env
+        cd selenium2env
         source bin/activate
     ```
     Agora que você está dentro do ambiente virtual você pode instalar qualquer biblioteca usando o pip.
@@ -65,13 +62,21 @@
     E desativar o ambiente com `deactivate`
 
 ### Clonando o repositório
-No terminal, navegue até o diretório em que você deseja que fique o projeto e clone o repositório com:
+Recomendo utilização do [GitKraken](http://gitkraken.com/) para melhor visualização do projeto no GitHub, e notificações sobre o estado do projeto. Com ele você deve dar um fork no meu projeto no GitHub e cloná-lo para a sua máquina.
+
+Caso prefira fazer isso pelo terminal, navegue até o diretório em que você deseja que fique o projeto e clone o repositório com:
 ```shell
     git clone https://github.com/izabelacborges/test-automation-python-setup.git
 ```
-E instale as dependencias com `pip install -r requirements.txt` dentro do ambiente virtual.
+Após clonar o repositório por qualquer um dos caminhos acima, instale as dependências com `pip install -r requirements.txt` dentro do ambiente virtual.
 
-### Instalando o Chrome Driver:
+### Instalando o Chrome e o ChromeDriver:
+1. __Chrome__
+Este passo só deve ser reproduzido caso você não tenha o Chrome instalado em seu computador.
+
+Instale o Chrome browser clicando [aqui](https://www.google.com/chrome/index.html).
+
+2. __ChromeDriver__
 ```shell
 brew install chromedriver
 ```
