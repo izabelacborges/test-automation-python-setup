@@ -18,11 +18,13 @@ Após clonar o repositório por qualquer um dos caminhos acima, instale as depen
 
 ### Instalando o Chrome e o ChromeDriver:
 1. __Chrome__
+
 Este passo só deve ser reproduzido caso você não tenha o Chrome instalado em seu computador. Você estando no Windows, se não pular este passo, creio que você é louco, ou muito hardcore...
 
 Instale o Chrome browser clicando [aqui](https://www.google.com/chrome/index.html).
 
 2. __ChromeDriver__
+
 Você pode installar o Chromedriver mais recente por [aqui](https://chromedriver.storage.googleapis.com/2.30/chromedriver_win32.zip).
 
 É tido como padrão que o executável fique em `C:\chromedriver.exe`

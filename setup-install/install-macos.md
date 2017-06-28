@@ -72,11 +72,13 @@ Após clonar o repositório por qualquer um dos caminhos acima, instale as depen
 
 ### Instalando o Chrome e o ChromeDriver:
 1. __Chrome__
+
 Este passo só deve ser reproduzido caso você não tenha o Chrome instalado em seu computador.
 
 Instale o Chrome browser clicando [aqui](https://www.google.com/chrome/index.html).
 
 2. __ChromeDriver__
+
 ```shell
 brew install chromedriver
 ```

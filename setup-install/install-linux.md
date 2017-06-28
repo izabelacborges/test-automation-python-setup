@@ -82,6 +82,7 @@ Após clonar o repositório por qualquer um dos caminhos acima, instale as depen
 
 ### Instalando o Chrome e o ChromeDriver:
 1. __Chrome__
+
 Este passo só deve ser reproduzido caso você não tenha o Chrome instalado em seu computador.
 
 ```shell
