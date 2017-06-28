@@ -19,7 +19,7 @@ Para instalar e configurar o seu ambiente de testes automatizados em Python, voc
 ### Execução dos testes
 Abra o Terminal, preferencialmente dentro do PyCharm. Será necessário ativar o ambiente virtual criado para os testes, e só aí executar o teste desejado. Os passos serão os seguintes:
 ```shell
-source ~/Virtualenvs/pytest2env/bin/activate
+source ~/Virtualenvs/selenium2env/bin/activate
 nose path/to/test/test.py
 ```
 
