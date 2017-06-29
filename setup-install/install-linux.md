@@ -64,7 +64,7 @@
     ```
     Ative o ambiente virtual com: 
     ```shell
-        cd selenium2env2
+        cd selenium2env
         source bin/activate
     ```
     Agora que você está dentro do ambiente virtual você pode instalar qualquer biblioteca usando o pip.
