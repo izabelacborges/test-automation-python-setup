@@ -8,8 +8,8 @@ class TestSelenium(TestCase):
         pucminasPage = PucminasPage(self.driver)
 
         #Dados
-        matricula = "463243"
-        senha = "pucminas463243"
+        matricula = ""
+        senha = ""
 
         pucminasPage.type_matricula(matricula)
         pucminasPage.type_senha(senha)
