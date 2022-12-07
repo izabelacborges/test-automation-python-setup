@@ -1,7 +1,7 @@
 apipkg==1.4
 appdirs==1.4.3
 beautifulsoup4==4.6.0
-certifi==2017.4.17
+certifi==2022.12.7
 chardet==3.0.3
 chromedriver==2.24.1
 ddt==1.1.1
